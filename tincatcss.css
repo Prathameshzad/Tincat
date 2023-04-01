@@ -1,0 +1,164 @@
+body{
+    /* font-family: "Montserrat";  */
+}
+#title {
+    background-color: rgb(170, 117, 255);
+}
+
+h1{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3.5em;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+h3{
+    font-family: "Montserrat-bold", sans-serif;
+    font-weight: 800;
+}
+p{
+    color: gray;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+
+}
+
+.navbar-brand{
+    font-family: "Ubantu";
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: black;
+    padding: 0 18px;
+    font-family:"Montserrat-light";
+    font-size: 1.2em;
+}
+
+.navbar{
+    padding: 0 0 3rem;;
+}
+.nav-link{
+    font-size: 18px;
+    font-family: "Montserrat-light";
+}
+
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.home-image{
+    width: 85%;
+    transform: rotate(25deg);
+    position: absolute; 
+    left: 10%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.onebox{
+    text-align: center;
+    padding: 3%;
+}
+
+.icon{
+    color: rgb(153, 103, 199);
+    margin: 15px;
+}
+
+.icon:hover{
+    color:rgb(170, 117, 255) ;
+}
+
+/* Testimonials */
+
+#testimonials{
+
+    background-color: rgb(170, 117, 255);
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 6% 15%;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+h2{
+    font-family: "montserrat-bold",sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+/* Press */
+
+#press{
+    background-color: rgb(170, 117, 255);
+    text-align: center;   
+}
+
+.press-logo{
+    width: 15%;
+    margin: 0 20px;
+}
+
+.btn:hover{
+    background-color: rgb(170, 117, 255) ;
+}
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2% ;
+    
+}
+
+.card-header{
+    background-color: rgb(170, 117, 255);
+}
+
+@media (max-width:1028px){
+    .home-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color:rgb(170, 117, 255);
+    text-align: center;
+    padding: 7% 15% 5%;
+     
+}
+
+.cta-h3{
+    font-family: "Montserrat-bold", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.footer-icon{
+    padding: 5px;
+}
